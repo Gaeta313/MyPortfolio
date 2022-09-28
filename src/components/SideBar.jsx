@@ -4,7 +4,7 @@ import { HiCloudDownload } from "react-icons/hi";
 
 const SideBar = () => {
   return (
-    <Container fluid>
+    <Container fluid className="m-0">
       <div className="mySideBar">
         <div className="titolo">
           <h3>Gaetano Notarangelo</h3>
@@ -26,15 +26,24 @@ const SideBar = () => {
           <Row className="text-start mt-3">
             <Col xs={10} className="m-auto">
               <a
+                target="_blank"
+                rel="noreferrer"
                 className="nav-link my-2"
                 href="https://www.linkedin.com/in/gaetano-giulio-notarangelo-796580241/"
               >
                 <AiFillLinkedin /> Linkedin
               </a>
-              <a className="nav-link my-2" href="https://github.com/Gaeta313">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                className="nav-link my-2"
+                href="https://github.com/Gaeta313"
+              >
                 <AiFillGithub /> GithHub
               </a>
               <a
+                target="_blank"
+                rel="noreferrer"
                 className="nav-link my-2"
                 href="./documents/Gaetano Giulio_Notarangelo_Curriculum (1).pdf"
               >

@@ -5,7 +5,7 @@ import Profilo from "./Profilo";
 
 const Presentazione = () => {
   return (
-    <div>
+    <div className="myPresentazione">
       <div className="my-3">c</div>
       <Container className="w-75">
         <Profilo />

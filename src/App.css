@@ -1,6 +1,29 @@
+
+
+
 .App {
   text-align: center;
   background-color: #282c34b9 !important;
+  height:100vh;
+ /*  overflow: scroll;*/
+  overflow-x: hidden;
+  overflow-y: hidden; 
+}
+
+.blocco{
+  height: 70vh;
+  overflow: auto !important;
+  overflow-x: hidden !important;
+}
+
+.mainPage {
+  height:100vh;
+  overflow: scroll;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.myPresentazione{
   height:100vh;
   overflow: scroll;
   overflow-x: hidden;
@@ -59,11 +82,6 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .fotoProfilo{
   border: #282c34 2px solid;
@@ -73,22 +91,30 @@
 
 .mySideBar p {
   font-size: 14px;
+  
 }
 
 #select{
   background-color: #365e4fbf !important;
   color: white !important;
 }
+.m-0{
+  padding: 0px !important;
+}
+
+.relative{
+  position: relative !important;
+}
 
 .mySideBar{
   border: #282c34 2px solid;
   height: 100vh;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 25.6vw;
+  bottom: 0px;
+  left: 0px; 
+  width: 100%;
   color: white;
   background-color: #365e4fbf;
+  
 }
 
 

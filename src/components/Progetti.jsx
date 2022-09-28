@@ -50,7 +50,7 @@ const Progetti = () => {
         </div>
       </div>
 
-      <Row xs={1} md={4}>
+      <Row xs={1} md={2} lg={3} xl={4}>
         {progettiArray.map((progetto) => (
           <Col key={progetto.id} className="mb-4">
             <SingleCard

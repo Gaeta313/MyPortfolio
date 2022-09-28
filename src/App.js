@@ -15,7 +15,7 @@ function App() {
       <div className="App">
         <div className="sfondo">
           <Row xs={1} md={2}>
-            <Col md={3}>
+            <Col className="relative" md={3}>
               <SideBar /> 
             </Col>
             <Col md={9} >
