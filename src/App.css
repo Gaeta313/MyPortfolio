@@ -10,6 +10,10 @@
   overflow-y: hidden; 
 }
 
+.card{
+  box-shadow: 0px 0px 10px 2px black !important;
+}
+
 .blocco{
   height: 70vh;
   overflow: auto !important;

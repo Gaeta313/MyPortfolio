@@ -5,7 +5,7 @@ const SingleCard = ({ progetto, setModalShow, setIdProgetto }) => {
   const navigate = useNavigate();
 
   return (
-    <Card className="h-100  ">
+    <Card className="h-100 card ">
       <Card.Img variant="top" src={progetto.bg} />
       <Card.Body>
         <Card.Title>{progetto.title}</Card.Title>
