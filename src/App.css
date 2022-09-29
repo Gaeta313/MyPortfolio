@@ -65,7 +65,7 @@
 }
 
 .myPresentazione{
-  height:100vh;
+  height:92vh;
   overflow: scroll;
   overflow-x: hidden;
   overflow-y: auto;
@@ -97,6 +97,8 @@
   cursor: pointer !important;
   transform: scale(0.9);
  }
+
+ 
 
 .myNav{
  /*  position: fixed;
