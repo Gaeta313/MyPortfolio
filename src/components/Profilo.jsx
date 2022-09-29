@@ -32,8 +32,8 @@ const Profilo = () => {
           </div>
         </Col>
         <Col md={4}>
-          <div className="m-auto" style={{ width: "80%" }}>
-            <img src="http://placekitten.com/200/200" width="100%" alt="foto" />
+          <div className="m-auto" style={{ width: "70%" }}>
+            <img src="/img/20220609_1546322.jpg" width="100%" alt="foto" />
           </div>
         </Col>
       </Row>
