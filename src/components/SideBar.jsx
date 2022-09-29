@@ -47,7 +47,7 @@ const SideBar = () => {
                 target="_blank"
                 rel="noreferrer"
                 className="nav-link my-2"
-                href="./documents/Gaetano Giulio_Notarangelo_Curriculum (1).pdf"
+                href="./documents/Gaetano Giulio_Notarangelo_Curriculum_con_Portfolio.pdf"
               >
                 <HiCloudDownload /> Download Curriculum
               </a>
