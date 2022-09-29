@@ -15,6 +15,16 @@
     "repository": "https://github.com/Gaeta313/Jquery-Memory.git"
   },
   {
+    "id": 12,
+    "title": "My Portfolio",
+    "linguage": "React",
+    "summary": "Il portfolio che state guardando realizzato in react ",
+    "description": " Pensavo che sarebbe stato stimolante realizzare personalmente il mio portfolio invece di usare uno dei tanti modelli a disposizione su internet.",
+    "bg": "/img/Progetti/Portfolio.png",
+    "link": "",
+    "repository": "https://github.com/Gaeta313/MyPortfolio.git"
+  },
+  {
     "id": 1,
     "title": "Campo Minato",
     "linguage": "JavaScript",
