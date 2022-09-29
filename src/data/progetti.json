@@ -11,7 +11,8 @@
       "/img/Progetti/Memory Game.jpg",
       "/img/Progetti/memory2.jpg",
       "/img/Progetti/memory3.jpg"
-    ]
+    ],
+    "repository": "https://github.com/Gaeta313/Jquery-Memory.git"
   },
   {
     "id": 1,
@@ -25,7 +26,8 @@
       "/img/Progetti/campoMinato.jpg",
       "/img/Progetti/campo2.jpg",
       "/img/Progetti/campo3.jpg"
-    ]
+    ],
+    "repository": "https://github.com/Gaeta313/Campo-Minato.git"
   },
   {
     "id": 2,
@@ -34,7 +36,8 @@
     "summary": "Semplice utilizzo delle PokéAPI ",
     "description": "Progetto realizzato come esercitazione sulle chiamate Ajax utilizzando le PokéAPI",
     "bg": "/img/Progetti/pokemon.jpg",
-    "link": "https://pok-dex-javascript-iko4.vercel.app/"
+    "link": "https://pok-dex-javascript-iko4.vercel.app/",
+    "repository": "https://github.com/Gaeta313/Pok-dex-Javascript.git"
   },
   {
     "id": 3,
@@ -43,7 +46,8 @@
     "summary": "Calcolatrice realizzata in javascript ",
     "description": "Il primo progetto realizzato in javaScript, sono stati anche implementati alcuni controlli supplementari, ed un display che mostra il log delle operazioni.",
     "bg": "/img/Progetti/calcolatrice.jpg",
-    "link": "https://calcolatrice-java-script-g1eh.vercel.app/"
+    "link": "https://calcolatrice-java-script-g1eh.vercel.app/",
+    "repository": "https://github.com/Gaeta313/Calcolatrice-JavaScript.git"
   },
   {
     "id": 4,
@@ -52,7 +56,8 @@
     "summary": "Esercitazione sulle interfacce TypeScript ",
     "description": "Primo progetto realizzato in TypeScript, gestisce il credito residuo, e simula il costo di una chiamata con uno tariffa di 20 centesimi al minuto",
     "bg": "/img/Progetti/smartPhone.jpg",
-    "link": "https://typescript-progetto-orzn.vercel.app/"
+    "link": "https://typescript-progetto-orzn.vercel.app/",
+    "repository": "https://github.com/Gaeta313/Typescript-Progetto.git"
   },
   {
     "id": 5,
@@ -70,7 +75,8 @@
       "/img/Progetti/shop5.jpg",
       "/img/Progetti/shop6.jpg",
       "/img/Progetti/shop7.jpg"
-    ]
+    ],
+    "repository": "https://github.com/Gaeta313/FE0222A-progetto-settimana-11.git"
   },
   {
     "id": 6,
@@ -79,7 +85,8 @@
     "summary": "To Do List realizzata con Angular ",
     "description": "Questa semplice ToDoList permette l'inserimento di tasks tramite campo input. UNa volta inserito un nuovo task è possibile contrassegnarlo come completato, è possibile modificarlo ed eliminarlo. E' stato aggiunto un caricamento fake, che attende 2 secondi prima di mostrare i dati aggiornati.",
     "bg": "/img/Progetti/AngularToDoList.jpg",
-    "link": "https://fe-0222-a-angular-to-do-list-10-ifc1.vercel.app/"
+    "link": "https://fe-0222-a-angular-to-do-list-10-ifc1.vercel.app/",
+    "repository": "https://github.com/Gaeta313/FE0222A-progetto-settimana-10.git"
   },
   {
     "id": 7,
@@ -94,7 +101,8 @@
       "/img/Progetti/amdb2.jpg",
       "/img/Progetti/amdb3.jpg",
       "/img/Progetti/amdb4.jpg"
-    ]
+    ],
+    "repository": "https://github.com/Gaeta313/FE0222A-progetto-settimana-12.git"
   },
   {
     "id": 8,
@@ -118,7 +126,8 @@
       "/img/Progetti/crm10.jpg",
       "/img/Progetti/crm11.jpg",
       "/img/Progetti/crm12.jpg"
-    ]
+    ],
+    "repository": "https://github.com/Gaeta313/FE0222A_Progetto_Finale.git"
   },
   {
     "id": 9,
@@ -128,7 +137,8 @@
     "description": "Questo progetto è stato il primo che ho realizzato in React, lo scopo era di ricreare un clone di Netflix, utilizzando le API di Omdb, sono presenti 3 gallerie che effettuano ricerche su tre saghe dal database.",
     "bg": "/img/Progetti/netflix.jpg",
     "link": "https://react-netflix-ds9n.vercel.app/",
-    "images": ["/img/Progetti/netflix.jpg", "/img/Progetti/netflix2.jpg"]
+    "images": ["/img/Progetti/netflix.jpg", "/img/Progetti/netflix2.jpg"],
+    "repository": "https://github.com/Gaeta313/react-netflix.git"
   },
   {
     "id": 10,
@@ -144,7 +154,8 @@
       "/img/Progetti/wheater3.jpg",
       "/img/Progetti/wheater4.jpg",
       "/img/Progetti/wheater5.jpg"
-    ]
+    ],
+    "repository": "https://github.com/Gaeta313/Epic-Weather.git"
   },
   {
     "id": 11,
@@ -171,6 +182,7 @@
       "/img/Progetti/linkedin8.jpg",
       "/img/Progetti/linkedin9.jpg",
       "/img/Progetti/linkedin10.jpg"
-    ]
+    ],
+    "repository": "https://github.com/Gaeta313/React_Linkedin.git"
   }
 ]

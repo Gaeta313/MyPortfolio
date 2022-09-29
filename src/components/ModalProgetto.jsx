@@ -131,7 +131,9 @@ const ModalProgetto = (props) => {
                   Video
                 </Button>
               )}
-              <Button variant="dark">Repository</Button>
+              <Button variant="dark" onClick={() => {
+                    window.open(progetto.repository, "_blank");
+                  }}>Repository</Button>
             </div>
             <Button variant="dark" onClick={props.onHide}>Close</Button>
           </Modal.Footer>

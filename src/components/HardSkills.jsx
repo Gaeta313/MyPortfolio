@@ -13,8 +13,8 @@ const HardSkills = () => {
             <Row className="align-items-center">
               <Col xs={4}>
                 <img
-                  width="100%"
-                  height="100%"
+                  width="50%"
+                  height="50%"
                   src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg"
                   alt="logo Css"
                 />
@@ -28,7 +28,7 @@ const HardSkills = () => {
             <Row className="align-items-center">
               <Col xs={4}>
                 <img
-                  width="70%"
+                  width="40%"
                   src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg"
                   alt="logo Css"
                 />
@@ -45,8 +45,8 @@ const HardSkills = () => {
             <Row className="align-items-center">
               <Col xs={4}>
                 <img
-                  width="100%"
-                  height="100%"
+                  width="50%"
+                  height="50%"
                   src="https://upload.wikimedia.org/wikipedia/commons/9/96/Sass_Logo_Color.svg"
                   alt="logo Css"
                 />
@@ -60,7 +60,7 @@ const HardSkills = () => {
             <Row className="align-items-center">
               <Col xs={4}>
                 <img
-                  width="100%"
+                  width="50%"
                   src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg"
                   alt="logo Css"
                 />
@@ -77,8 +77,8 @@ const HardSkills = () => {
             <Row className="align-items-center">
               <Col xs={4}>
                 <img
-                  width="100%"
-                  height="100%"
+                  width="50%"
+                  height="50%"
                   src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg"
                   alt="logo Css"
                 />
@@ -92,7 +92,7 @@ const HardSkills = () => {
             <Row className="align-items-center">
               <Col xs={4}>
                 <img
-                  width="100%"
+                  width="50%"
                   src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg"
                   alt="logo Css"
                 />
@@ -109,8 +109,8 @@ const HardSkills = () => {
             <Row className="align-items-center">
               <Col xs={4} >
                 <img
-                  width="100%"
-                  height="100%"
+                  width="50%"
+                  height="50%"
                   src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/JQuery-Logo.svg/1048px-JQuery-Logo.svg.png"
                   alt="logo Css"
                 />
@@ -124,7 +124,7 @@ const HardSkills = () => {
             <Row className="align-items-center">
               <Col xs={4}>
                 <img
-                  width="100%"
+                  width="50%"
                   src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/1024px-Angular_full_color_logo.svg.png"
                   alt="logo Css"
                 />
@@ -141,8 +141,8 @@ const HardSkills = () => {
             <Row className="align-items-center">
               <Col xs={4} >
                 <img
-                  width="100%"
-                  height="100%"
+                  width="50%"
+                  height="50%"
                   src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
                   alt="logo Css"
                 />
@@ -156,7 +156,7 @@ const HardSkills = () => {
             <Row className="align-items-center">
               <Col xs={4}>
                 <img
-                  width="100%"
+                  width="50%"
                   src="https://cdn.worldvectorlogo.com/logos/redux.svg"
                   alt="logo Css"
                 />

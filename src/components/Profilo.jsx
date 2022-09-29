@@ -21,7 +21,7 @@ const Profilo = () => {
             </p>
             <p>
               Ho frequentato il corso Front-End di Epicode School, un percorso
-              formativo di oltre 700 ore, per avere i mezzi per trasformare la
+              formativo di oltre 600 ore, per avere i mezzi per trasformare la
               mia passione nel mio lavoro.
             </p>
             <p>
