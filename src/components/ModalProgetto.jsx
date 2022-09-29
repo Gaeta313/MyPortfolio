@@ -2,10 +2,12 @@ import Carousel from "better-react-carousel";
 import { useEffect } from "react";
 import { useState } from "react";
 import { Button, Modal } from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
 
 const ModalProgetto = (props) => {
   const [progetto, setProgetto] = useState(null);
   const [image, setImage] = useState(null);
+  const navigate = useNavigate();
   const getsource = (linguage) => {
     switch (linguage) {
       case "JavaScript":
@@ -109,7 +111,7 @@ const ModalProgetto = (props) => {
           </Modal.Body>
           <Modal.Footer className="justify-content-between">
             <div >
-              {progetto.link !== "" && (
+              {progetto.link !== "" && progetto.link !== "/info" && (
                 <Button
                   className="me-2 provalo"
                   variant="success"
@@ -120,6 +122,19 @@ const ModalProgetto = (props) => {
                   Provalo
                 </Button>
               )}
+              {
+                progetto.link === "/info" &&
+                <Button
+                  className="me-2 provalo"
+                  variant="success"
+                  onClick={() => {
+                    navigate(progetto.link);
+                  }}
+                >
+                  Provalo
+                </Button>
+              
+              }
               {progetto.video && (
                 <Button
                   className="me-2 provalo"

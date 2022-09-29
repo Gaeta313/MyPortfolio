@@ -66,7 +66,7 @@
     "summary": "Simulatore di e-commerce realizzato con Angular ",
     "description": "In questo progetto viene utilizzato un fake-server per gestire un database di prodotti ed utenti. E' possibile registrare nuovi utenti ed effettuare un login simulato, senza utilizzare token. Ogni utente ha la possibilità di aggiungere prodotti al 'proprio' carrello, acquistarli completando l'aposito form. Ogni utente ha la sua pagina personale, dove può modificare il proprio indirizzo, che verrà autocompilato nel form di acquisto, e visualizzare la propria cronologia acquisti.",
     "bg": "/img/Progetti/Angular shop.jpg",
-    "link": "",
+    "link": "/info",
     "images": [
       "/img/Progetti/Angular shop.jpg",
       "/img/Progetti/shop2.jpg",
@@ -95,7 +95,7 @@
     "summary": "Angular movies database, progetto Angular ispirato al sito Imdb  ",
     "description": "Questo progetto vuole realizare un archivio di film dai quali è possibile ottenere diverse informazioni. E' possibile registrarsi ed effettuare un vero login tramite token. Inoltre ogni utente ha la possibilità di aggiungere o rimuovere un film alla lista dei preferiti. E' possibile visualizzare i film suddivisi per genere, mediante l'aposito selettore. Cliccando sul pulsante info si apre un modale che mostra le inforamzioni sul film. Per l'interfaccia è stato utilizzato Material.",
     "bg": "/img/Progetti/Amdb.jpg",
-    "link": "",
+    "link": "/info",
     "images": [
       "/img/Progetti/Amdb.jpg",
       "/img/Progetti/amdb2.jpg",

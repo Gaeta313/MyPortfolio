@@ -8,6 +8,7 @@ import MainPage from "./components/MainPage";
 import Presentazione from "./components/Presentazione";
 import MyNav from "./components/MyNav";
 import ReactStickyBox from "react-sticky-box";
+import Info from "./components/Info";
 
 
 
@@ -28,6 +29,7 @@ function App() {
               <Routes>
                 <Route path='/' element={<MainPage />} />
                 <Route path='/presentazione' element={<Presentazione />} />
+                <Route path='/info' element={<Info />} />
                 
               </Routes>
             </Col>
