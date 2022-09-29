@@ -22,7 +22,7 @@ const SideBar = () => {
             </Row>
           <div className="titolo">
             <h3>Gaetano Notarangelo</h3>
-            <h4>- Front-End Developer -</h4>
+            <h4>-Junior Front-End Developer -</h4>
           </div>
           </div>
           <Row className="text-start mt-3">
