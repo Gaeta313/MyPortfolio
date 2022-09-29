@@ -29,7 +29,7 @@ const SingleCard = ({ progetto, setModalShow, setIdProgetto }) => {
       </ListGroup>
       <Card.Footer>
         <Row>
-          <Col xs={6} md={12} sm={12} lg={6}>
+          <Col >
             <Button
               variant="success"
               onClick={() => {
@@ -44,9 +44,9 @@ const SingleCard = ({ progetto, setModalShow, setIdProgetto }) => {
               Dettagli
             </Button>
           </Col>
-          <Col xs={6} sm={12} md={12} lg={6}>
+         {/*  <Col xs={6} sm={12} md={12} lg={6}>
             <Button variant="dark"> Repository</Button>
-          </Col>
+          </Col> */}
         </Row>
         <div className="d-flex justify-content-between"></div>
       </Card.Footer>

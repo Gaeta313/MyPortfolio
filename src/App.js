@@ -7,6 +7,8 @@ import { Col, Row } from "react-bootstrap";
 import MainPage from "./components/MainPage";
 import Presentazione from "./components/Presentazione";
 import MyNav from "./components/MyNav";
+import ReactStickyBox from "react-sticky-box";
+
 
 
 function App() {
@@ -14,12 +16,15 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <div className="sfondo">
-          <Row xs={1} md={2}>
-            <Col className="relative" md={3}>
+          <Row xs={1}  >
+            <Col className="relative" xs={12} lg={3}>   
               <SideBar /> 
             </Col>
-            <Col md={9} >
+            <Col xs={12} lg={9} >
+              <ReactStickyBox offsetTop={0}>
+
               <MyNav />
+              </ReactStickyBox>
               <Routes>
                 <Route path='/' element={<MainPage />} />
                 <Route path='/presentazione' element={<Presentazione />} />

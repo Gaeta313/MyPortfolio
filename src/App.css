@@ -1,10 +1,16 @@
 
-
+:root{
+  --primary-color: #c2185b;
+  --secondary-color: #424242;
+  --dark-color : rgb(48, 48, 48);
+  ---text-color: white;
+}
 
 .App {
   text-align: center;
-  background-color: #282c34b9 !important;
-  height:100vh;
+ /*  background-color: #282c34b9 !important; */
+ background-color: var(--dark-color);
+  height:100%;
  /*  overflow: scroll;*/
   overflow-x: hidden;
   overflow-y: hidden; 
@@ -12,6 +18,37 @@
 
 .card{
   box-shadow: 0px 0px 10px 2px black !important;
+  padding: 10px;
+}
+
+.card button{
+  color: var(---text-color);
+  background-color: var(--primary-color);
+  border: none;
+}
+
+.card button:hover{
+  background-color: #c9155d !important;
+}
+
+.modal-content button{
+  color: var(---text-color);
+  background-color: var(--dark-color);
+  border: none;
+}
+
+.modal-content button:hover{
+  background-color: black ;
+}
+
+.provalo{
+  color: var(---text-color);
+  background-color: var(--primary-color) !important;
+  border: none;
+}
+
+.provalo:hover{
+  background-color: #c9155d !important;
 }
 
 .blocco{
@@ -21,7 +58,7 @@
 }
 
 .mainPage {
-  height:100vh;
+  height:92vh;
   overflow: scroll;
   overflow-x: hidden;
   overflow-y: auto;
@@ -39,7 +76,10 @@
 }
 
 .card, .list-group-item {
-  background-color: #ffffff48 !important;
+  background-color: var(--secondary-color) !important;
+  color: var(---text-color) !important;
+  border: 1px solid var(--primary-color);
+ 
 }
 
 .w-10{
@@ -48,8 +88,8 @@
 
 
 .modal-content{
-  background-color:  #365e4f!important;
-  color: white !important;
+  background-color: var(--secondary-color)!important;
+  color: var(---text-color) !important;
   position: relative !important;
   z-index: 30 !important;
 }
@@ -59,12 +99,15 @@
  }
 
 .myNav{
-  position: fixed;
+ /*  position: fixed;
   top:1px;
-  left:30vw;
-  width: 65%;
+  left:30vw; */
+  width: 100%;
+  
+  color: var(---text-color) !important;
   margin: auto;
-  background-color: #365e4f;
+  box-shadow: 0px 0px 5px 1px var(--secondary-color);
+  background-color: var(--primary-color);
   z-index: 20 !important;
 }
 
@@ -75,8 +118,11 @@
 
 
 .presentazione{
-  background-color: #365e4fbf;
-  box-shadow: 0px 0px 5px 5px #282c34b9 ;
+ /*  background-color: #365e4fbf; */
+ background-color: var(--secondary-color);
+  /* box-shadow: 0px 0px 5px 5px #282c34b9 ; */
+  box-shadow: 0px 0px 10px 3px var(--primary-color) ;
+  color: var(---text-color)!important;
   border-radius: 10px;
   padding: 20px;
 }
@@ -87,20 +133,23 @@
 }
 
 
-.fotoProfilo{
-  border: #282c34 2px solid;
-  box-shadow: #282c34 0px 0px 10px 2px;
-  position: relative;
-}
+
+
+
 
 .mySideBar p {
   font-size: 14px;
   
 }
 
+.form-select:focus{
+  border-color: var(--primary-color) !important;
+  box-shadow: 0 0 0 1px var(--primary-color) !important;
+}
+
 #select{
-  background-color: #365e4fbf !important;
-  color: white !important;
+  background-color: var(--secondary-color)!important;
+  color: var(---text-color) !important;
 }
 .m-0{
   padding: 0px !important;
@@ -111,14 +160,32 @@
 }
 
 .mySideBar{
-  border: #282c34 2px solid;
+  border-right:  0.5px solid white;
+  box-shadow: 0px 0px 10px 5px black;
   height: 100vh;
-  bottom: 0px;
-  left: 0px; 
   width: 100%;
-  color: white;
-  background-color: #365e4fbf;
+  color: var(---text-color);
+  border-top-right-radius: 30%;
+  border-bottom-right-radius: 30%;
+  /* background-color: #365e4fbf; */
+  background-color: var(--secondary-color);
+}
+
+.mySideBar img{
   
+  position: relative;
+  bottom: 20px;
+  left: 50px;
+  
+}
+
+.fotoProfilo{
+  background-color: var(--primary-color);
+  border: 1px dashed black;
+/*  box-shadow: var(--dark-color) 0px 0px 10px 10px;*/
+  position: relative;
+  top: 20px;
+  right: 50px;
 }
 
 
@@ -131,25 +198,74 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: var(---text-color);
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
 
 .contenitoreImg{
   width: 20%;
 }
 
+body{
+  color:var(---text-color) !important;
+  overflow-y: auto;
+}
+
+@media screen and (max-width: 992px) and (min-width: 576px) {
+ 
+  .mainPage{
+    height:100%;
+    overflow: visible !important;
+  }
+
+  .fotoNome{
+    display: flex;
+    align-items: center;
+  }
+  .rigaProfilo{
+    width: 60%;
+  }
+  
+  .myPresentazione{
+    height: 100%;
+    overflow: visible;
+  }
+
+  .mySideBar{
+    height: 100%;
+    margin-bottom: 5%;
+  }
+
+}
+
+@media screen and (max-width: 575px) {
+  .fotoNome{
+    display: block;
+  }
+  .fotoProfilo{
+    width: 50%;
+    margin: auto;
+  }
+  .mySideBar{
+    height: 100%;
+    margin-bottom: 5%;
+    border-radius: 0%;
+  }
+
+  .mainPage{
+    height:100%;
+    overflow: visible !important;
+  }
+
+  .myPresentazione{
+    height: 100%;
+    overflow: visible;
+  }
+}
 
 

@@ -6,7 +6,7 @@ import Profilo from "./Profilo";
 const Presentazione = () => {
   return (
     <div className="myPresentazione">
-      <div className="my-3">c</div>
+      <div className="my-3"></div>
       <Container className="w-75">
         <Profilo />
         <Certificazioni />

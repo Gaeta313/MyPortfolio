@@ -22,13 +22,14 @@ const Progetti = () => {
 
   console.log(progetti);
   return (
-    <div className="  m-auto">
+    <div className=" mb-5  m-auto">
       <div className="  align-items-center mb-5 ">
         <div>
           {" "}
           <h2>- Progetti -</h2>
         </div>
-        <div className="w-25 float ">
+        <Row>
+          <Col md={4}>
           <label className="text-start" htmlFor="select">
             Filtra per linguaggio :
           </label>
@@ -47,6 +48,9 @@ const Progetti = () => {
             <option value="jQuery">jQuery</option>
             <option value="React">React</option>
           </Form.Select>
+          </Col>
+        </Row>
+        <div className="w-25 float ">
         </div>
       </div>
 

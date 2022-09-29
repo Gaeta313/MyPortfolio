@@ -37,7 +37,7 @@ const MainPage = () => {
                 </div>
               </div> */}
 
-<div className="my-3">c</div>
+<div className="my-3"></div>
       <div>
         <Progetti />
       </div>

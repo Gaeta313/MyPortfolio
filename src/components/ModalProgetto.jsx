@@ -60,8 +60,7 @@ const ModalProgetto = (props) => {
             </Modal.Title>
           </Modal.Header>
           <Modal.Body className="text-center blocco">
-          <h4 className="mb-2">{progetto.summary}</h4>
-            <div className="w-75 m-auto mb-4">
+            <div className="w-75 m-auto mb-4 border">
               <img src={image} width="100%" alt="immagine" />
             </div>
             <div>
@@ -102,16 +101,17 @@ const ModalProgetto = (props) => {
                   </Carousel>
                 ))}
              
+              <h4 className="my-4">{progetto.summary}</h4>
               <div className="mt-4" >
                 <p>{progetto.description}</p>
               </div>
             </div>
           </Modal.Body>
           <Modal.Footer className="justify-content-between">
-            <div>
+            <div >
               {progetto.link !== "" && (
                 <Button
-                  className="me-2"
+                  className="me-2 provalo"
                   variant="success"
                   onClick={() => {
                     window.open(progetto.link, "_blank");
@@ -122,8 +122,8 @@ const ModalProgetto = (props) => {
               )}
               {progetto.video && (
                 <Button
-                  className="me-2"
-                  variant="danger"
+                  className="me-2 provalo"
+                  variant="dark"
                   onClick={() => {
                     window.location = progetto.video;
                   }}
@@ -133,7 +133,7 @@ const ModalProgetto = (props) => {
               )}
               <Button variant="dark">Repository</Button>
             </div>
-            <Button onClick={props.onHide}>Close</Button>
+            <Button variant="dark" onClick={props.onHide}>Close</Button>
           </Modal.Footer>
         </Modal>
       )}

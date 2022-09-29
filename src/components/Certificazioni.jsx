@@ -9,11 +9,11 @@ const Certificazioni = () => {
         </Col>
       </Row>
       <Row>
-        <Col xs={6}>
+        <Col xs={12} md={6}>
       <img src="/img/Gaetano-Giulio-Notarangelo.jpeg" width="100%" alt="" />
         </Col>
 
-        <Col xs={6}>
+        <Col xs={12} md={6}>
       <div className="text-start ms-3">
            <h4>Front-End Developer</h4>
            <p>Rilasciato da Epicode School, un percorso formativo di 535 ore, dove ho appreso le principali skills lato front-end: </p>

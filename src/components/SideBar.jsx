@@ -6,23 +6,25 @@ const SideBar = () => {
   return (
     <Container fluid className="m-0">
       <div className="mySideBar">
-        <div className="titolo">
-          <h3>Gaetano Notarangelo</h3>
-          <h4>- Front-End Developer -</h4>
-          <h4>- Portfolio -</h4>
-        </div>
+      <div className="p-4"></div>
         <Container>
-          <Row>
-            <Col xs={6} className="m-auto">
-              <div className="fotoProfilo">
-                <img
-                  src="/img/WhatsApp Image 2022-06-09 at 16.19.51.jpeg"
-                  width="100%"
-                  alt="foto profilo"
-                />
-              </div>
-            </Col>
-          </Row>
+          <div className="fotoNome">
+            <Row className="mb-5 rigaProfilo">
+              <Col md={4} lg={6} className="m-auto">
+                <div className="fotoProfilo">
+                  <img
+                    src="/img/WhatsApp Image 2022-06-09 at 16.19.51.jpeg"
+                    width="100%"
+                    alt="foto profilo"
+                  />
+                </div>
+              </Col>
+            </Row>
+          <div className="titolo">
+            <h3>Gaetano Notarangelo</h3>
+            <h4>- Front-End Developer -</h4>
+          </div>
+          </div>
           <Row className="text-start mt-3">
             <Col xs={10} className="m-auto">
               <a
