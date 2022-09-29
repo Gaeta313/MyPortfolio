@@ -7,7 +7,7 @@ const Presentazione = () => {
   return (
     <div className="myPresentazione">
       <div className="my-3"></div>
-      <Container className="w-75">
+      <Container className="w-100">
         <Profilo />
         <Certificazioni />
         <HardSkills />
