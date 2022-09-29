@@ -19,7 +19,7 @@
     "title": "My Portfolio",
     "linguage": "React",
     "summary": "Il portfolio che state guardando realizzato in react ",
-    "description": " Pensavo che sarebbe stato stimolante realizzare personalmente il mio portfolio invece di usare uno dei tanti modelli a disposizione su internet.",
+    "description": " Pensavo che sarebbe stato stimolante realizzare personalmente il mio portfolio invece di usare uno dei tanti modelli a disposizione su internet. Il portfolio utilizza un file Json dove sono memorizzati i dati relativi ai progetti, le card vengono generate dinamicamente scorrendo l'array presente nel file Json.",
     "bg": "/img/Progetti/Portfolio.png",
     "link": "",
     "repository": "https://github.com/Gaeta313/MyPortfolio.git"
