@@ -152,7 +152,7 @@
   },
   {
     "id": 10,
-    "title": "React Wheater",
+    "title": "React Weather",
     "linguage": "React",
     "summary": "Applicazione meteo realizzata in React ",
     "description": "Un applicazione meteo sviluppata con React, grazie alla geolocalizzazione all'avvio dell'app viene caricato il meteo nella località in cui si trova l'utente. E' possibile ricercare una località per nome, inserendo anche con una virgola lo stato. Es Roma,it. Oltre al meteo attuale vengono mostrate le previsioni dei 5 giorni successivi per la località scelta.",
