@@ -3,12 +3,12 @@ import { Col, Row } from "react-bootstrap";
 const Certificazioni = () => {
   return (
     <div className="my-5  m-auto presentazione">
-      <Row>
+      <Row >
         <Col xs={12}>
           <h2 className="mb-3">- Certificazioni -</h2>
         </Col>
       </Row>
-      <Row>
+      <Row className="mb-5">
         <Col xs={12} md={6}>
       <img src="/img/Gaetano-Giulio-Notarangelo.jpeg" width="100%" alt="" />
         </Col>
@@ -25,6 +25,23 @@ const Certificazioni = () => {
                <li>TypeScript</li>
                <li>jQuery</li>
                <li>Angular</li>
+           </ul>
+      </div>
+        </Col>
+      </Row>
+      <Row className="mb-5">
+        <Col xs={12} md={6}>
+      <img src="/img/Gaetano Giulio Notarangelo React.png" width="100%" alt="" />
+        </Col>
+
+        <Col xs={12} md={6}>
+      <div className="text-start ms-3">
+           <h4>React</h4>
+           <p>Rilasciato da Epicode School, un percorso formativo su: </p>
+           <ul>
+               <li>React</li>
+               <li>Redux</li>
+              
            </ul>
       </div>
         </Col>
