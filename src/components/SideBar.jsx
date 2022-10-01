@@ -57,7 +57,7 @@ const SideBar = () => {
             <Col xs={10} className="m-auto text-start">
               <h4>- About Me -</h4>
               <p>
-                Ciao, mi chiamo Gaetano è sono un appassionato di
+                Ciao, mi chiamo Gaetano e sono un appassionato di
                 programmazione.
               </p>
               <p>
