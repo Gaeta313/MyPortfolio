@@ -10,7 +10,7 @@ const SingleCard = ({ progetto, setModalShow, setIdProgetto }) => {
       <Card.Body>
         <Card.Title>{progetto.title}</Card.Title>
         <Card.Text>
-          <p>{progetto.summary}</p>
+          {progetto.summary}
         </Card.Text>
       </Card.Body>
       <ListGroup className="list-group-flush">
@@ -19,7 +19,7 @@ const SingleCard = ({ progetto, setModalShow, setIdProgetto }) => {
           <ListGroup.Item>
             Collaboratori :{" "}
             {progetto.featuring.map((collaboratore) => (
-              <a href={collaboratore.link} rel="noreferrer" target="_blank">
+              <a key={collaboratore.name} href={collaboratore.link} rel="noreferrer" target="_blank">
                 {" "}
                 {collaboratore.name}
               </a>
