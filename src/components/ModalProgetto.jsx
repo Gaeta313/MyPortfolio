@@ -25,7 +25,7 @@ const ModalProgetto = (props) => {
 
   useEffect(() => {
     let progettoT = props.progetti.filter(
-      (progetto) => progetto.id === props.idprogetto
+      (progetto) => progetto.id === props.idProgetto
     );
     if (progettoT[0]) {
       if (progettoT[0] !== progetto) {
