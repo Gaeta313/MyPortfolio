@@ -101,14 +101,11 @@
  
 
 .myNav{
- /*  position: fixed;
-  top:1px;
-  left:30vw; */
   width: 100%;
   
   color: var(---text-color) !important;
   margin: auto;
-  box-shadow: 0px 0px 5px 1px var(--secondary-color);
+  
   background-color: var(--primary-color);
   z-index: 20 !important;
 }
