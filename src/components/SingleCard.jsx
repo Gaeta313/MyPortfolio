@@ -1,8 +1,6 @@
 import { Button, Card, Col, ListGroup, Row } from "react-bootstrap";
-import { useNavigate } from "react-router-dom";
 
 const SingleCard = ({ progetto, setModalShow, setIdProgetto }) => {
-  const navigate = useNavigate();
 
   return (
     <Card className="h-100 card ">
@@ -35,18 +33,11 @@ const SingleCard = ({ progetto, setModalShow, setIdProgetto }) => {
               onClick={() => {
                 setIdProgetto(progetto.id);
                 setModalShow(true); //
-                /*  if(progetto.link !== ""){
-
-                        window.location =   progetto.link
-                      } */
               }}
             >
               Dettagli
             </Button>
           </Col>
-         {/*  <Col xs={6} sm={12} md={12} lg={6}>
-            <Button variant="dark"> Repository</Button>
-          </Col> */}
         </Row>
         <div className="d-flex justify-content-between"></div>
       </Card.Footer>

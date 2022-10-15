@@ -1,5 +1,5 @@
-import { useEffect } from "react";
-import { Button, Col, Container, Row } from "react-bootstrap";
+
+import {  Container } from "react-bootstrap";
 import Progetti from "./Progetti";
 
 const MainPage = () => {
