@@ -22,10 +22,7 @@ function App() {
               <SideBar /> 
             </Col>
             <Col xs={12} lg={9} >
-              <ReactStickyBox offsetTop={0}>
-
               <MyNav />
-              </ReactStickyBox>
               <Routes>
                 <Route path='/' element={<MainPage />} />
                 <Route path='/presentazione' element={<Presentazione />} />

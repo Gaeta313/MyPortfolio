@@ -15,6 +15,16 @@
     "repository": "https://github.com/Gaeta313/Jquery-Memory.git"
   },
   {
+    "id": 13,
+    "title": "My Portfolio/Angular Version",
+    "linguage": "Angular",
+    "summary": "Una versione dello stesso portfolio che state visualizzando ma realizzato interamente in Angular ",
+    "description": " Pensavo che sarebbe stato stimolante realizzare personalmente il mio portfolio invece di usare uno dei tanti modelli a disposizione su internet. Il portfolio utilizza un file Json dove sono memorizzati i dati relativi ai progetti, le card vengono generate dinamicamente scorrendo l'array presente nel file Json.",
+    "bg": "/img/Progetti/Angular Portfolio.jpg",
+    "link": "https://angular-portfolio-kappa.vercel.app/",
+    "repository": "https://github.com/Gaeta313/Angular-Portfolio.git"
+  },
+  {
     "id": 12,
     "title": "My Portfolio",
     "linguage": "React",
