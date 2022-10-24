@@ -66,9 +66,6 @@ const SideBar = () => {
                 acquisto le principali skills del settore, fino ad arrivare ad
                 Angular e React.
               </p>
-              <p>
-                Ecco a voi una presentazione di me stesso e dei miei lavori.
-              </p>
             </Col>
           </Row>
         </Container>
